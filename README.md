@@ -11,6 +11,6 @@ For more information or support regarding modding this script, visit the Office 
 
 ***Usage:*** Input is taken through the command line (same MO for all operating systems)
 
-$$python MergeScript.py -s <source directory> -d <destination directory> -st <starting file>
+$$python MergeScript.py -s [source directory] -d [destination directory] -st [starting file]
 
 The last argument will be the full path to any file in your input directory.
