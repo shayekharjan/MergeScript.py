@@ -16,9 +16,9 @@ For more information or support regarding modding this script, visit the Office 
 The last argument will be the full path to any one of the files in your input directory.
 
 Sample Usage Case 
+-----------------
 
-Input: Vernonica.txt
---------------------
+### Input: Vernonica.txt
 
 	Image Number   Lower Angle   Upper Angle    Accessibility Level 
 	6340             -22.97          14.61               2
@@ -27,8 +27,8 @@ Input: Vernonica.txt
 	7876              14.86           9.76               2
 	5828               1.88           0.88               4
 
-Output: NewFile.txt
--------------------
+### Output: NewFile.txt
+
 	5828               1.88           0.88               4 
 	6340             -22.97          14.61               2
 	6847              13.15           7.87               2
