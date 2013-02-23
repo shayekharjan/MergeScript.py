@@ -11,6 +11,26 @@ For more information or support regarding modding this script, visit the Office 
 
 ***Usage:*** Input is taken through the command line (same MO for all operating systems)
 
-		$$python MergeScript.py -s [source directory] -d [destination directory] -st [starting file]
+	$$python MergeScript.py -s [source directory] -d [destination directory] -st [starting file]
 
-The last argument will be the full path to any file in your input directory.
+The last argument will be the full path to any one of the files in your input directory.
+
+Sample Usage Case 
+
+Input: Vernonica.txt
+--------------------
+
+	Image Number   Lower Angle   Upper Angle    Accessibility Level 
+	6340             -22.97          14.61               2
+	7357              16.69          10.95               2
+	6847              13.15           7.87               2
+	7876              14.86           9.76               2
+	5828               1.88           0.88               4
+
+Output: NewFile.txt
+-------------------
+	5828               1.88           0.88               4 
+	6340             -22.97          14.61               2
+	6847              13.15           7.87               2
+	7357              16.69          10.95               2
+	7876              14.86           9.76               2
